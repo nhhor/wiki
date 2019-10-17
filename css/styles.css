@@ -10,12 +10,9 @@ body {
 
 }
 
-.panel-warning {
-  border: 1px solid #ddcef2
-}
-
 .panel.panel-warning {
   background-color: rgba(221,206,242,.25);
+  border: 1px solid #ddcef2
 }
 
 /* .panel-default {
@@ -26,7 +23,13 @@ body {
   background-color: #ddcef2;
 }
 
+.panel.panel-success {
+  background-color: rgba(206,242,224,.25);
+}
 
+.panel.panel-info {
+  background-color: #f5faff;
+}
 
 .nav-item {
   background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#a7d7f9 100%)
