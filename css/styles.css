@@ -1,4 +1,38 @@
-.col-lg-12 {
-  border: solid;
+body {
+    background-color: #f6f6f6;
+}
+.container {
+  margin-left: 0px;
+  }
+
+.panel {
+  padding: 10px;
+
+}
+
+.panel-warning {
+  border: 1px solid #ddcef2
+}
+
+.panel.panel-warning {
+  background-color: rgba(221,206,242,.25);
+}
+
+/* .panel-default {
+  padding: 5px;
+} */
+
+.panel-warning .panel-title, .panel-warning .panel-heading {
+  background-color: #ddcef2;
+}
+
+
+
+.nav-item {
+  background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#a7d7f9 100%)
+}
+
+ul.sidebar {
+  list-style-type: none;
 
 }
